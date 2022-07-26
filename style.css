@@ -1,0 +1,299 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F5F5F5;
+    position: relative !important;
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+/* header-start */
+nav {
+    height: 70px;
+}
+
+.nav-top {
+    height: 100%;
+    background-color: #2193da;
+}
+
+.nav-bottom {
+    height: 165px;
+    background-color: #44ADE4;
+    position: sticky !important;
+    top: 0;
+    z-index: 2;
+}
+
+button:hover {
+    background-color: #44ADE4 !important;
+}
+
+.search-btn-1:hover {
+    background-color: #F5F5F5 !important;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px light;
+}
+
+.search-btn-1 {
+    transition: 0.5s;
+}
+
+.logo-img {
+    height: 120px;
+    aspect-ratio: 1;
+}
+
+.logo-img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+input {
+    height: 45px;
+    border: 0;
+    border-radius: 20px;
+    outline: 0;
+    padding-left: 30px;
+}
+
+.search-btn-1 {
+    width: 45px;
+    border: 0;
+    border-radius: 50%;
+}
+
+.modal-body img {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+.row div {
+    display: flex;
+    flex-direction: column;
+}
+
+.row p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.modal-content {
+    width: 600px;
+}
+/* header-end */
+
+/* main-start */
+.card {
+    min-height: 320px;
+    width: 700px;
+    border: 0;
+    box-shadow: 10px 10px 20px rgb(230, 225, 225);
+    border-radius: 15px;
+    transition: 0.3s;
+    padding-top: 20px;
+}
+
+.card:hover {
+    transform: scale(1.05) !important;
+}
+
+.con-us {
+    height: 550px;
+    background: url(./image/blue.jpg);
+    background-size: 100%;
+    background-position: bottom;
+    padding-top: 65px;
+    font-weight: 900;
+}
+
+.con-form-in {
+    height: 450px;
+    width: 350px;
+    background: linear-gradient(45deg, #31A3E0, #9DCFEA);
+    padding-top: 40px;
+    border-radius: 18px;
+    box-shadow: 5px 5px 10px #3d90bc;
+}
+
+.con-form input {
+    width: 80%;
+    margin: auto;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+textarea {
+    outline: 0;
+    border-radius: 15px;
+    padding-left: 14px;
+}
+
+#myCart {
+    background-color: #006DB5;
+    width: 0px;
+    height: 39px;
+    position: fixed;
+    z-index: 50;
+    right: 0;
+    bottom: 50%;
+    color: white;
+    border: 0;
+    transition: 0.5s;
+}
+
+#myCart::before {
+    content: "";
+    border-right: 24.5px solid #126ea7;
+    border-top: 24.5px solid transparent;
+    border-bottom: 24.5px solid transparent;
+    position: absolute;
+    top: 1px;
+    left: -21px;
+}
+/* main-end */
+
+/* footer-start */
+footer {
+    background-color: #44ADE4;
+    height: 150px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.earth {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.img {
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    position: relative;
+}
+
+.later {
+    letter-spacing: 8px;
+}
+
+.border {
+    border: 2px solid red;
+}
+
+.icons a {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+}
+
+.icons {
+    position: relative;
+    top: 30px;
+    margin: 0;
+}
+/* footer-end */
+
+/* mobile-screen-adaption-max-width:688px */
+@media only screen and (max-width:688px) {
+    #phone {
+        display: none;
+    }
+
+    #mail {
+        display: none;
+    }
+
+    .nav-top-in {
+        width: 100% !important;
+    }
+
+    .nav-bottom {
+        height: 110px;
+    }
+
+    .nav-bottom-in {
+        padding-top: 30px !important;
+        gap: 10px;
+    }
+
+    .nav-bottom-in input {
+        padding: 0 0 0 10px;
+    }
+
+    .logo-img {
+        height: 70px;
+        width: 70px;
+        display: none;
+    }
+
+    .nav-bottom img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .head-line {
+        font-size: 40px !important;
+    }
+
+    .card-con {
+        flex-direction: column;
+    }
+
+    .card img {
+        display: block;
+        width: 100px;
+        height: 100px;
+        margin: auto;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .con-location {
+        flex-direction: column;
+    }
+
+    .con-us {
+        height: auto;
+    }
+
+    .con-us-in {
+        flex-direction: column;
+    }
+
+    textarea {
+        width: 80% !important;
+    }
+
+    #myCart {
+        font-size: 15px;
+        top: 50%;
+        width: 10px;
+        transition: 0.5s;
+    }
+}
+
+/* medum-screen-adaption-max-width:992px */
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .nav-bottom {
+        height: 165px;
+        background-color: #44ADE4;
+        position: sticky !important;
+        top: 0;
+        z-index: 2;
+    }
+}
+
+
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$ MIDnight Coders $$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
