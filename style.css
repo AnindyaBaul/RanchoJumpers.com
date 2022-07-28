@@ -27,6 +27,7 @@ nav {
 
 button:hover {
     background-color: #44ADE4 !important;
+    color: white!important;
 }
 
 .search-btn-1:hover {
@@ -245,6 +246,11 @@ footer {
     .card-con {
         flex-direction: column;
     }
+    .concession-h1{
+        width: 100%!important;
+        font-size: 20px;
+        
+    }
 
     .card img {
         display: block;
@@ -284,12 +290,28 @@ footer {
 /* medum-screen-adaption-max-width:992px */
 @media only screen and (min-width:689px) and (max-width:992px) {
     .nav-bottom {
-        height: 165px;
+        height: 125px;
         background-color: #44ADE4;
         position: sticky !important;
         top: 0;
         z-index: 2;
+   padding-top: 0!important;
     }
+    .nav-bottom img{
+       height: 70px;
+       width: 70px;
+    }
+    .card-btn{
+        gap: 5px !important;
+        width: 160px;
+        font-size: 12px;
+    }
+    .logo-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
 
 

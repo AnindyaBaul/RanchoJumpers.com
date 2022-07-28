@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <title>Inventory- Rancho Jumpers</title>
     <!-- Required meta tags -->
@@ -31,12 +32,14 @@
         <nav class="navbar navbar-expand-lg text-light  nav-top">
             <div class="container-fluid w-75 nav-top-in mx-auto">
                 <div class="d-flex align-items-center gap-3">
-                    <div class="d-flex align-items-center">
-                        <i class="fa-duotone fa-phone-rotary"></i>
+                    <div class="d-flex align-items-center ">
+                        <a style="color: white; font-size: 20px!important;" href="tel:(909) 323-1421"><i class="fa-duotone fa-phone-rotary"></i></a>
                         <p class="m-0" id="phone">(909) 323-1421</p>
+                      
                     </div>
                     <div class="d-flex align-items-center">
-                        <i class="fa-duotone fa-paper-plane"></i>
+                        
+                        <a style="color:white!important; font-size: 20px!important;" href="mailto:admin@909jump.com"><i class="fa-duotone fa-paper-plane"></i></a>
                         <p class="m-0" id="mail">admin@909jump.com</p>
                     </div>
                 </div>
@@ -504,7 +507,7 @@
                                             </div>
                                         </div>
                                         <div class="modal-footer">
-                                            <button class="btn btn-primary" data-bs-target="#exampleModalToggle"
+                                            <button class="btn btn-primary" data-bs-target="#"
                                                 data-bs-toggle="modal">Submit</button>
                                         </div>
                                     </div>
@@ -521,22 +524,24 @@
         </nav>
         <!-- nav-1-end -->
 
-        <!-- nav-2-start -->
-        <nav class="nav-bottom">
-            <div class="d-flex w-75 mx-auto justify-content-center align-items-center pt-4 nav-bottom-in">
-                <div class="logo-img">
-                    <img src="./image/logo-Rancho-Jumper-Rentals-Logo_921193-300x215.png" alt="">
-                </div>
-                <div class="w-100 d-flex justify-content-center gap-2">
-                    <input placeholder="I'am Looking For" class="w-75  d-block" type="text">
-                    <button class="d-block search-btn-1">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </button>
-                </div>
-            </div>
-        </nav>
-        <!-- nav-2-end -->
+
     </header>
+    <!-- nav-2-start -->
+    <nav class="nav-bottom">
+        <div class="d-flex w-75 mx-auto justify-content-center align-items-center pt-lg-4 nav-bottom-in">
+            <div class="logo-img">
+                <img src="./image/logo-Rancho-Jumper-Rentals-Logo_921193-300x215.png" alt="">
+            </div>
+            <div class="w-100 d-flex justify-content-center gap-2">
+                <input placeholder="I'am Looking For" class="w-75  d-block" type="text">
+                <button class="d-block search-btn-1">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- nav-2-end -->
+
     <!-- header-End -->
 
     <!-- main -->
@@ -575,11 +580,15 @@
                                     that
                                     never goes out of style and is always in demand by the kids.</p>
                                 <div class="d-flex w-100 justify-content-center align-items-center gap-3">
-                                    <small style="width: fit-content; color: blue;">from $-135.00</small>
-                                    <button onclick="bounce1()" class="border-0"
-                                        style="height:40px; width: 100px;background-color: #f8c211;"><i
-                                            class="fa-duotone fa-cart-shopping-fast"></i>
-                                        <button>
+                                    <small style="width: fit-content; color: blue;">$135.00</small>
+                                    <div class="d-flex flex-row gap-3 card-btn">
+                                        <button onclick="url1()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"> <small>More
+                                                Details</small> </button>
+                                        <button onclick="bounce1()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"><i
+                                                class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -599,11 +608,16 @@
                                     that
                                     never goes out of style and is always in demand by the kids.</p>
                                 <div class="d-flex w-100 justify-content-center align-items-center gap-3">
-                                    <small style="width: fit-content;display: block; color: blue; ">from
-                                        $-135.00</small>
-                                    <button onclick="bounce1()" class="border-0 d-block"
-                                        style="height:40px; width: 100px;background-color: #f8c211;"><i
-                                            class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    <small style="width: fit-content;display: block; color: blue; ">
+                                        $135.00</small>
+                                    <div class="d-flex flex-row gap-3 card-btn">
+                                        <button onclick="url2()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"> <small>More
+                                                Details</small> </button>
+                                        <button onclick="bounce1()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"><i
+                                                class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -625,7 +639,7 @@
                     fugit
                     alias pariatur officia cumque, quibusdam fuga?</p>
             </div>
-            <div class="d-flex gap-3 justify-content-center card-con">
+            <div id="" class="d-flex gap-3 justify-content-center card-con">
                 <div class="card mb-3" style="max-width: 540px;" data-aos="fade-right">
                     <div class="row g-0">
                         <div class="col-md-4 mt-3 ps-3">
@@ -641,10 +655,16 @@
                                     that
                                     never goes out of style.</p>
                                 <div class="d-flex w-100 justify-content-center align-items-center gap-3">
-                                    <small style="width: fit-content; color: blue;">from $395.00</small>
-                                    <button onclick="bounce1()" class="border-0"
-                                        style="height:40px; width: 100px;background-color: #f8c211;"><i
-                                            class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    <small style="width: fit-content; color: blue;">$395.00</small>
+                                    <div class="d-flex flex-row gap-3 card-btn">
+                                        <button onclick="url3()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"> <small>More
+                                                Details</small> </button>
+                                        <button onclick="bounce1()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"><i
+                                                class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -666,18 +686,23 @@
                                     that
                                     never goes out of style and is always in demand by the kids.</p>
                                 <div class="d-flex w-100 justify-content-center align-items-center gap-3">
-                                    <small style="width: fit-content;display: block; color: blue; ">from
-                                        $-325.00</small>
-                                    <button onclick="bounce1()" class="border-0 d-block"
-                                        style="height:40px; width: 100px;background-color: #f8c211;"><i
-                                            class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    <small style="width: fit-content;display: block; color: blue; ">
+                                        $325.00</small>
+                                    <div class="d-flex flex-row gap-3 card-btn">
+                                        <button onclick="url4()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"> <small>More
+                                                Details</small> </button>
+                                        <button onclick="bounce1()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"><i
+                                                class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="d-flex  justify-content-center">
+            <div class="d-flex  justify-content-center gap-3 card-con">
                 <div class="card mb-3" style="max-width: 540px;" data-aos="fade-up">
                     <div class="row g-0">
                         <div class="col-md-4 mt-3 ps-3">
@@ -693,10 +718,42 @@
                                     that
                                     never goes out of style and is always in demand by the kids.</p>
                                 <div class="d-flex w-100 justify-content-center align-items-center gap-3">
-                                    <small style="width: fit-content; color: blue;">from $-350.00</small>
-                                    <button onclick="bounce1()" class="border-0"
-                                        style="height:40px; width: 100px;background-color: #f8c211;"><i
-                                            class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    <small style="width: fit-content; color: blue;">$350.00</small>
+                                    <div class="d-flex flex-row gap-3 card-btn">
+                                        <button onclick="url5()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"> <small>More
+                                                Details</small> </button>
+                                        <button onclick="bounce1()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"><i
+                                                class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;" data-aos="fade-up">
+                    <div class="row g-0">
+                        <div class="col-md-4 mt-3 ps-3">
+                            <img src="./image/Dual Lane Island Plunge.png" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-align:center; font-weight: 700;color:#1F96F4; ">
+                                    Dual Lane Multi Color</h5>
+                                <p class="card-text">The Circus Act Jumper Rental is an original bounce house classic
+                                    that
+                                    never goes out of style and is always in demand by the kids.</p>
+                                <div class="d-flex w-100 justify-content-center align-items-center gap-3">
+                                    <small style="width: fit-content; color: blue;">$350.00</small>
+                                    <div class="d-flex flex-row gap-3 card-btn">
+                                        <button onclick="url19()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"> <small>More
+                                                Details</small> </button>
+                                        <button onclick="bounce1()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"><i
+                                                class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -732,10 +789,15 @@
                                     that
                                     never goes out of style and is always in demand by the kids.</p>
                                 <div class="d-flex w-100 justify-content-center align-items-center gap-3">
-                                    <small style="width: fit-content; color: blue;">from $-265.00</small>
-                                    <button onclick="bounce1()" class="border-0"
-                                        style="height:40px; width: 100px;background-color: #f8c211;"><i
-                                            class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    <small style="width: fit-content; color: blue;">$265.00</small>
+                                    <div class="d-flex flex-row gap-3 card-btn">
+                                        <button onclick="url8()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"> <small>More
+                                                Details</small> </button>
+                                        <button onclick="bounce1()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"><i
+                                                class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -755,11 +817,16 @@
                                     that
                                     never goes out of style and is always in demand by the kids.</p>
                                 <div class="d-flex w-100 justify-content-center align-items-center gap-3">
-                                    <small style="width: fit-content;display: block; color: blue; ">from
-                                        $-265.00</small>
-                                    <button onclick="bounce1()" class="border-0 d-block"
-                                        style="height:40px; width: 100px;background-color: #f8c211;"><i
-                                            class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    <small style="width: fit-content;display: block; color: blue; ">
+                                        $285.00</small>
+                                    <div class="d-flex flex-row gap-3 card-btn">
+                                        <button onclick="url9()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"> <small>More
+                                                Details</small> </button>
+                                        <button onclick="bounce1()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"><i
+                                                class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -781,10 +848,15 @@
                                     that
                                     never goes out of style and is always in demand by the kids.</p>
                                 <div class="d-flex w-100 justify-content-center align-items-center gap-3">
-                                    <small style="width: fit-content; color: blue;">from $-225.00</small>
-                                    <button onclick="bounce1()" class="border-0"
-                                        style="height:40px; width: 100px;background-color: #f8c211;"><i
-                                            class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    <small style="width: fit-content; color: blue;">$225.00</small>
+                                    <div class="d-flex flex-row gap-3 card-btn">
+                                        <button onclick="url10()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"> <small>More
+                                                Details</small> </button>
+                                        <button onclick="bounce1()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"><i
+                                                class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -799,18 +871,18 @@
                 <div class="d-flex justify-content-center align-items-center">
                     <img height="200px" width="230px" src="./image/foodcart-2.png" alt="">
                 </div>
-                <h1><strong>Concessions</strong> </h1>
+                <h1 class="concession-h1"><strong>Concessions/Margaritas <br> & Games</strong> </h1>
                 <p class="w-75 mx-auto " style="color:#963543;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Aut
                     quaerat ut libero ab dolore, molestiae quos ex vero, excepturi consequuntur velit veniam rem fugit
                     alias
                     pariatur officia cumque, quibusdam fuga?</p>
             </div>
-            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center gap-3 card-con">
                 <div class="card mb-3" data-aos="fade-up">
                     <div class="row g-0">
                         <div class="col-md-4 mt-3 ps-3">
-                            <img src="./image/Screenshot202022-03-0920at2000-22-2720Amazon20com20TOPQSC20Electric20ice20Shaver20Snow20Cone20Machine20ice20Crusher-Horizontal20Integrat..._1646898616_big.png"
+                            <img src="./image/snowCone.png"
                                 class="img-fluid rounded-start" alt="...">
                         </div>
                         <div class="col-md-8">
@@ -821,10 +893,257 @@
                                     that
                                     never goes out of style and is always in demand by the kids.</p>
                                 <div class="d-flex w-100 justify-content-center align-items-center gap-3">
-                                    <small style="width: fit-content; color: blue;">from $65.00</small>
-                                    <button onclick="bounce1()" class="border-0"
-                                        style="height:40px; width: 100px;background-color: #f8c211;"><i
-                                            class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    <small style="width: fit-content; color: blue;">$65.00</small>
+                                    <div class="d-flex flex-row gap-3 card-btn">
+                                        <button onclick="url11()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"> <small>More
+                                                Details</small> </button>
+                                        <button onclick="bounce1()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"><i
+                                                class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" data-aos="fade-up">
+                    <div class="row g-0">
+                        <div class="col-md-4 mt-3 ps-3">
+                            <img src="./image/New folder/margarita.png" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-align:center; font-weight: 700;color:#1F96F4; ">
+                                    Slushy Maker</h5>
+                                <p class="card-text">The Circus Act Jumper Rental is an original bounce house classic
+                                    that
+                                    never goes out of style and is always in demand by the kids.</p>
+                                <div class="d-flex w-100 justify-content-center align-items-center gap-3">
+                                    <small style="width: fit-content; color: blue;">$65.00</small>
+                                    <div class="d-flex flex-row gap-3 card-btn">
+                                        <button onclick="url12()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"> <small>More
+                                                Details</small> </button>
+                                        <button onclick="bounce1()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"><i
+                                                class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center gap-3 card-con">
+                <div class="card mb-3" data-aos="fade-up">
+                    <div class="row g-0">
+                        <div class="col-md-4 mt-3 ps-3">
+                            <img src="./image/New folder/cotton candy maker.png" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-align:center; font-weight: 700;color:#1F96F4; ">
+                                    Cotton Candy Maker</h5>
+                                <p class="card-text">The Circus Act Jumper Rental is an original bounce house classic
+                                    that
+                                    never goes out of style and is always in demand by the kids.</p>
+                                <div class="d-flex w-100 justify-content-center align-items-center gap-3">
+                                    <small style="width: fit-content; color: blue;">$65.00</small>
+                                    <div class="d-flex flex-row gap-3 card-btn">
+                                        <button onclick="url13()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"> <small>More
+                                                Details</small> </button>
+                                        <button onclick="bounce1()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"><i
+                                                class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" data-aos="fade-up">
+                    <div class="row g-0">
+                        <div class="col-md-4 mt-3 ps-3">
+                            <img src="./image/New folder/giant connect 4.png" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-align:center; font-weight: 700;color:#1F96F4; ">
+                                    Giant Connect 4</h5>
+                                <p class="card-text">The Circus Act Jumper Rental is an original bounce house classic
+                                    that
+                                    never goes out of style and is always in demand by the kids.</p>
+                                <div class="d-flex w-100 justify-content-center align-items-center gap-3">
+                                    <small style="width: fit-content; color: blue;">$65.00</small>
+                                    <div class="d-flex flex-row gap-3 card-btn">
+                                        <button onclick="url14()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"> <small>More
+                                                Details</small> </button>
+                                        <button onclick="bounce1()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"><i
+                                                class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center gap-3 card-con">
+                <div class="card mb-3" data-aos="fade-up">
+                    <div class="row g-0">
+                        <div class="col-md-4 mt-3 ps-3">
+                            <img src="./image/New folder/Giant Yahtzee.png" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-align:center; font-weight: 700;color:#1F96F4; ">
+                                    Giant Dice</h5>
+                                <p class="card-text">The Circus Act Jumper Rental is an original bounce house classic
+                                    that
+                                    never goes out of style and is always in demand by the kids.</p>
+                                <div class="d-flex w-100 justify-content-center align-items-center gap-3">
+                                    <small style="width: fit-content; color: blue;">$65.00</small>
+                                    <div onclick="url14()" class="d-flex flex-row gap-3">
+                                        <button class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"> <small>More
+                                                Details</small> </button>
+                                        <button onclick="bounce1()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"><i
+                                                class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" data-aos="fade-up">
+                    <div class="row g-0">
+                        <div class="col-md-4 mt-3 ps-3">
+                            <img src="./image/New folder/giant left-right-center.png" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-align:center; font-weight: 700;color:#1F96F4; ">
+                                    Giant Left-Right-Center</h5>
+                                <p class="card-text">The Circus Act Jumper Rental is an original bounce house classic
+                                    that
+                                    never goes out of style and is always in demand by the kids.</p>
+                                <div class="d-flex w-100 justify-content-center align-items-center gap-3">
+                                    <small style="width: fit-content; color: blue;">$65.00</small>
+                                    <div class="d-flex flex-row gap-3 card-btn">
+                                        <button onclick="url15()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"> <small>More
+                                                Details</small> </button>
+                                        <button onclick="bounce1()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"><i
+                                                class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center card-con">
+                <div class="card mb-3" data-aos="fade-up">
+                    <div class="row g-0">
+                        <div class="col-md-4 mt-3 ps-3">
+                            <img src="./image/New folder/giant jenga.png" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-align:center; font-weight: 700;color:#1F96F4; ">
+                                    Giant Jenga</h5>
+                                <p class="card-text">The Circus Act Jumper Rental is an original bounce house classic
+                                    that
+                                    never goes out of style and is always in demand by the kids.</p>
+                                <div class="d-flex w-100 justify-content-center align-items-center gap-3">
+                                    <small style="width: fit-content; color: blue;">$65.00</small>
+                                    <div class="d-flex flex-row gap-3 card-btn">
+                                        <button onclick="url16()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"> <small>More
+                                                Details</small> </button>
+                                        <button onclick="bounce1()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"><i
+                                                class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- tables&chairs-start -->
+        <section>
+            <div class="position-relative"
+                style="color:#f3b263;font-weight:900; margin-top: 150px; margin-bottom: 50px; text-align:center; ">
+                <div class="d-flex justify-content-center align-items-center">
+                    <img height="200px" width="200px" src="./image/New folder/cover t-c.png" alt="">
+                </div>
+                <h1><strong> Tables & Chairs</strong></h1>
+                <p class="w-75 mx-auto" style="color:#f4a749;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aut
+                    quaerat ut libero ab dolore, molestiae quos ex vero, excepturi consequuntur velit veniam rem fugit
+                    alias
+                    pariatur officia cumque, quibusdam fuga?</p>
+            </div>
+            <div class="d-flex gap-3 justify-content-center card-con">
+                <div class="card mb-3" style="max-width: 540px;" data-aos="fade-right">
+                    <div class="row g-0">
+                        <div class="col-md-4 mt-3 ps-3">
+                            <img src="./image/table.png" class="" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-align:center; font-weight: 700;color:#1F96F4; ">
+                                    Standard Size Table</h5>
+                                <p class="card-text">The Circus Act Jumper Rental is an original bounce house classic
+                                    that
+                                    never goes out of style and is always in demand by the kids.</p>
+                                <div class="d-flex w-100 justify-content-center align-items-center gap-3">
+                                    <small style="width: fit-content; color: blue;">$135.00</small>
+                                    <div class="d-flex flex-row gap-3 card-btn">
+                                        <button onclick="url20()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"> <small>More
+                                                Details</small> </button>
+                                        <button onclick="bounce1()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"><i
+                                                class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;" data-aos="fade-right">
+                    <div class="row g-0">
+                        <div class="col-md-4 mt-3 ps-2">
+                            <img src="./image/New folder/chairs.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8 ">
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-align:center; font-weight: 700;color:#1F96F4;">
+                                    Folding Chairs</h5>
+                                <p class="card-text">The Circus Act Jumper Rental is an original bounce house classic
+                                    that
+                                    never goes out of style and is always in demand by the kids.</p>
+                                <div class="d-flex w-100 justify-content-center align-items-center gap-3">
+                                    <small style="width: fit-content;display: block; color: blue; ">
+                                        $135.00</small>
+                                    <div class="d-flex flex-row gap-3 card-btn">
+                                        <button onclick="url21()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"> <small>More
+                                                Details</small> </button>
+                                        <button onclick="bounce1()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"><i
+                                                class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -832,6 +1151,84 @@
                 </div>
             </div>
         </section>
+
+        <!--  tables&chairs-end -->
+
+        <!-- tents-start -->
+        <section>
+            <div class="position-relative"
+                style="color:#6F5904;font-weight:900; margin-top: 150px; margin-bottom: 50px; text-align:center; ">
+                <div class="d-flex justify-content-center align-items-center">
+                    <img height="200px" width="200px" src="./image/tent-cover.png" alt="">
+                </div>
+                <h1><strong>Tents</strong></h1>
+                <p class="w-75 mx-auto" style="color:#6F5904;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aut
+                    quaerat ut libero ab dolore, molestiae quos ex vero, excepturi consequuntur velit veniam rem fugit
+                    alias
+                    pariatur officia cumque, quibusdam fuga?</p>
+            </div>
+            <div class="d-flex gap-3 justify-content-center card-con">
+                <div class="card mb-3" style="max-width: 540px;" data-aos="fade-right">
+                    <div class="row g-0">
+                        <div class="col-md-4 mt-3 ps-3">
+                            <img src="./image/tent111.png" class="" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-align:center; font-weight: 700;color:#1F96F4; ">10x10
+                                    Canopy</h5>
+                                <p class="card-text">The Circus Act Jumper Rental is an original bounce house classic
+                                    that
+                                    never goes out of style and is always in demand by the kids.</p>
+                                <div class="d-flex w-100 justify-content-center align-items-center gap-3">
+                                    <small style="width: fit-content; color: blue;">$135.00</small>
+                                    <div class="d-flex flex-row gap-3 card-btn">
+                                        <button onclick="url21()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"> <small>More
+                                                Details</small> </button>
+                                        <button onclick="bounce1()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"><i
+                                                class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;" data-aos="fade-right">
+                    <div class="row g-0">
+                        <div class="col-md-4 mt-3 ps-2">
+                            <img src="./image/tentcard-2.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8 ">
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-align:center; font-weight: 700;color:#1F96F4;">10x20
+                                    Canopy</h5>
+                                <p class="card-text">The Circus Act Jumper Rental is an original bounce house classic
+                                    that
+                                    never goes out of style and is always in demand by the kids.</p>
+                                <div class="d-flex w-100 justify-content-center align-items-center gap-3">
+                                    <small style="width: fit-content;display: block; color: blue; ">
+                                        $135.00</small>
+                                    <div class="d-flex flex-row gap-3 card-btn">
+                                        <button onclick="url22()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"> <small>More
+                                                Details</small> </button>
+                                        <button onclick="bounce1()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"><i
+                                                class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- tents-end -->
+
+
         <!-- Dry Slides-section -->
         <section>
             <div class="text-center position-relative"
@@ -861,10 +1258,224 @@
                                     that
                                     never goes out of style and is always in demand by the kids.</p>
                                 <div class="d-flex w-100 justify-content-center align-items-center gap-3">
-                                    <small style="width: fit-content; color: blue;">from $-315.00</small>
-                                    <button onclick="bounce1()" class="border-0"
-                                        style="height:40px; width: 100px;background-color: #f8c211;"><i
-                                            class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    <small style="width: fit-content; color: blue;">$325.00</small>
+                                    <div class="d-flex flex-row gap-3 card-btn">
+                                        <button onclick="url5()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"> <small>More
+                                                Details</small> </button>
+                                        <button onclick="bounce1()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"><i
+                                                class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex gap-3 justify-content-center card-con">
+                <div class="card mb-3" style="max-width: 540px;" data-aos="fade-down">
+                    <div class="row g-0">
+                        <div class="col-md-4 mt-3 ps-3">
+                            <img src="./image/w1 (1).png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-align:center; font-weight: 700;color:#1F96F4; ">
+                                    Camelot Combo</h5>
+                                <p class="card-text">The Circus Act Jumper Rental is an original bounce house classic
+                                    that
+                                    never goes out of style and is always in demand by the kids.</p>
+                                <div class="d-flex w-100 justify-content-center align-items-center gap-3">
+                                    <small style="width: fit-content; color: blue;">$265.00</small>
+                                    <div class="d-flex flex-row gap-3 card-btn">
+                                        <button onclick="url8()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"> <small>More
+                                                Details</small> </button>
+                                        <button onclick="bounce1()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"><i
+                                                class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;" data-aos="fade-right">
+                    <div class="row g-0">
+                        <div class="col-md-4 mt-3 ps-2">
+                            <img src="./image/w1 (2).png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8 ">
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-align:center; font-weight: 700;color:#1F96F4;">
+                                    Carnival
+                                    Combo</h5>
+                                <p class="card-text">The Circus Act Jumper Rental is an original bounce house classic
+                                    that
+                                    never goes out of style and is always in demand by the kids.</p>
+                                <div class="d-flex w-100 justify-content-center align-items-center gap-3">
+                                    <small style="width: fit-content;display: block; color: blue; ">
+                                        $285.00</small>
+                                    <div class="d-flex flex-row gap-3 card-btn">
+                                        <button onclick="url17()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"> <small>More
+                                                Details</small> </button>
+                                        <button onclick="bounce1()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"><i
+                                                class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex  justify-content-center">
+                <div class="card mb-3" style="max-width: 540px;" data-aos="fade-up">
+                    <div class="row g-0">
+                        <div class="col-md-4 mt-3 ps-3">
+                            <img src="./image/w1 (3).png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-align:center; font-weight: 700;color:#1F96F4; ">Jump
+                                    N'
+                                    Slide Funhouse</h5>
+                                <p class="card-text">The Circus Act Jumper Rental is an original bounce house classic
+                                    that
+                                    never goes out of style and is always in demand by the kids.</p>
+                                <div class="d-flex w-100 justify-content-center align-items-center gap-3">
+                                    <small style="width: fit-content; color: blue;">$225.00</small>
+                                    <div class="d-flex flex-row gap-3 card-btn">
+                                        <button onclick="url18()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"> <small>More
+                                                Details</small> </button>
+                                        <button onclick="bounce1()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"><i
+                                                class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="" class="d-flex gap-3 justify-content-center card-con">
+                <div class="card mb-3" style="max-width: 540px;" data-aos="fade-right">
+                    <div class="row g-0">
+                        <div class="col-md-4 mt-3 ps-3">
+                            <img src="./image/cali dream main pic_1646783785.png" class="img-fluid rounded-start"
+                                alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-align:center; font-weight: 700;color:#1F96F4; ">
+                                    California Dreaming Dual Lane Water Slide
+                                </h5>
+                                <p class="card-text">The Circus Act Jumper Rental is an original bounce house classic
+                                    that
+                                    never goes out of style.</p>
+                                <div class="d-flex w-100 justify-content-center align-items-center gap-3">
+                                    <small style="width: fit-content; color: blue;">$395.00</small>
+                                    <div class="d-flex flex-row gap-3 card-btn">
+                                        <button onclick="url3()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"> <small>More
+                                                Details</small> </button>
+                                        <button onclick="bounce1()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"><i
+                                                class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;" data-aos="fade-up">
+                    <div class="row g-0">
+                        <div class="col-md-4 mt-3 ps-2">
+                            <img src="./image/Giant20Yellow20Water20Slide20Rental_1656354999_big.png"
+                                class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8 ">
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-align:center; font-weight: 700;color:#1F96F4;">Tiger
+                                    King
+                                    Falls
+                                </h5>
+                                <p class="card-text">The Circus Act Jumper Rental is an original bounce house classic
+                                    that
+                                    never goes out of style and is always in demand by the kids.</p>
+                                <div class="d-flex w-100 justify-content-center align-items-center gap-3">
+                                    <small style="width: fit-content;display: block; color: blue; ">
+                                        $325.00</small>
+                                    <div class="d-flex flex-row gap-3 card-btn">
+                                        <button onclick="url4()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"> <small>More
+                                                Details</small> </button>
+                                        <button onclick="bounce1()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"><i
+                                                class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex  justify-content-center gap-3 card-con">
+                <div class="card mb-3" style="max-width: 540px;" data-aos="fade-up">
+                    <div class="row g-0">
+                        <div class="col-md-4 mt-3 ps-3">
+                            <img src="./image/huge20water20slide20rental_1646782183_big.png"
+                                class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-align:center; font-weight: 700;color:#1F96F4; ">
+                                    Tropical
+                                    Thunderstorm</h5>
+                                <p class="card-text">The Circus Act Jumper Rental is an original bounce house classic
+                                    that
+                                    never goes out of style and is always in demand by the kids.</p>
+                                <div class="d-flex w-100 justify-content-center align-items-center gap-3">
+                                    <small style="width: fit-content; color: blue;">$350.00</small>
+                                    <div class="d-flex flex-row gap-3 card-btn">
+                                        <button onclick="url5()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"> <small>More
+                                                Details</small> </button>
+                                        <button onclick="bounce1()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"><i
+                                                class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;" data-aos="fade-up">
+                    <div class="row g-0">
+                        <div class="col-md-4 mt-3 ps-3">
+                            <img src="./image/Dual Lane Island Plunge.png" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-align:center; font-weight: 700;color:#1F96F4; ">
+                                    Dual Lane Multi Color</h5>
+                                <p class="card-text">The Circus Act Jumper Rental is an original bounce house classic
+                                    that
+                                    never goes out of style and is always in demand by the kids.</p>
+                                <div class="d-flex w-100 justify-content-center align-items-center gap-3">
+                                    <small style="width: fit-content; color: blue;">$350.00</small>
+                                    <div class="d-flex flex-row gap-3 card-btn">
+                                        <button onclick="url19()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"> <small>More
+                                                Details</small> </button>
+                                        <button onclick="bounce1()" class="border-0"
+                                            style="height:40px; width: 100px;background-color: #f8c211;"><i
+                                                class="fa-duotone fa-cart-shopping-fast"></i> </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -874,10 +1485,10 @@
         </section>
         <!-- Client Review Section -->
         <section style="margin-block: 200px;">
-            <h1 class="text-center"><strong>Happy Clients <span class="text-primary">Say</span></strong></h1>
+
             <div>
                 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-                <div class="elfsight-app-5324729e-8cc6-4529-80ca-69ba7bf81a0c"></div>
+                <div class="elfsight-app-abd5f764-4eb3-480c-a26e-431850156997"></div>
             </div>
         </section>
         <!-- Client Review Section Ends-->
@@ -886,108 +1497,30 @@
         <section>
             <h1 class="text-center"><strong><span class="text-primary">Find Us</span> at <i
                         class="fa-duotone fa-location-dot"></i></strong></h1>
-            <div class="con-location d-flex gap-4" style="width:fit-content; margin: auto;">
-                <div>
-                    <div class="my-4">
-                        <div class="mapouter">
-                            <div class="gmap_canvas"><iframe width="200" height="200" id="gmap_canvas"
-                                    src="https://maps.google.com/maps?q=montclair,ca&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-                                    href="https://fmovies-online.net"></a><br>
-                                <style>
-                                    .mapouter {
-                                        position: relative;
-                                        text-align: right;
-                                        height: 200px;
-                                        width: 200px;
-                                    }
-                                </style><a href="https://www.embedgooglemap.net"></a>
-                                <style>
-                                    .gmap_canvas {
-                                        overflow: hidden;
-                                        background: none !important;
-                                        height: 200px;
-                                        width: 200px;
-                                    }
-                                </style>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="">
-                        <div class="mapouter">
-                            <div class="gmap_canvas"><iframe width="200" height="200" id="gmap_canvas"
-                                    src="https://maps.google.com/maps?q=fontana,ca&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-                                    href="https://fmovies-online.net"></a><br>
-                                <style>
-                                    .mapouter {
-                                        position: relative;
-                                        text-align: right;
-                                        height: 200px;
-                                        width: 200px;
-                                    }
-                                </style><a href="https://www.embedgooglemap.net"></a>
-                                <style>
-                                    .gmap_canvas {
-                                        overflow: hidden;
-                                        background: none !important;
-                                        height: 200px;
-                                        width: 200px;
-                                    }
-                                </style>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="my-4">
-                        <div class="mapouter">
-                            <div class="gmap_canvas"><iframe width="200" height="200" id="gmap_canvas"
-                                    src="https://maps.google.com/maps?q=Ontario,ca&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-                                    href="https://fmovies-online.net"></a><br>
-                                <style>
-                                    .mapouter {
-                                        position: relative;
-                                        text-align: right;
-                                        height: 200px;
-                                        width: 200px;
-                                    }
-                                </style><a href="https://www.embedgooglemap.net"></a>
-                                <style>
-                                    .gmap_canvas {
-                                        overflow: hidden;
-                                        background: none !important;
-                                        height: 200px;
-                                        width: 200px;
-                                    }
-                                </style>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="mapouter">
-                            <div class="gmap_canvas"><iframe width="200" height="200" id="gmap_canvas"
-                                    src="https://maps.google.com/maps?q=Rancho%20Cucamonga,ca&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-                                    href="https://fmovies-online.net"></a><br>
-                                <style>
-                                    .mapouter {
-                                        position: relative;
-                                        text-align: right;
-                                        height: 200px;
-                                        width: 200px;
-                                    }
-                                </style><a href="https://www.embedgooglemap.net"></a>
-                                <style>
-                                    .gmap_canvas {
-                                        overflow: hidden;
-                                        background: none !important;
-                                        height: 200px;
-                                        width: 200px;
-                                    }
-                                </style>
-                            </div>
+
+            <div style="height: 400px;" class=" w-100 d-flex justify-content-center overflow-hidden">
+                <div style="height: auto;">
+                    <div class="mapouter">
+                        <div class="gmap_canvas"><iframe width="600" height="300" id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=Hillcrest%20Street,%20Corona,%20CA%2092880&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                                href="https://www.whatismyip-address.com"></a><br>
+                            <style>
+                                .mapouter {
+                                    position: relative;
+                                    text-align: right;
+                                    height: 300px;
+                                    width: 600px;
+                                }
+                            </style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
+                            <style>
+                                .gmap_canvas {
+                                    overflow: hidden;
+                                    background: none !important;
+                                    height: 300px;
+                                    width: 600px;
+                                }
+                            </style>
                         </div>
                     </div>
                 </div>
