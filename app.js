@@ -75,11 +75,11 @@ function url19(){
 function url20(){
     window.location.assign("https://909jump.com/rentals/tables-chairs/standard-size-table/")
 }
-function url20(){
-    window.location.assign("https://909jump.com/rentals/tables-chairs/folding-chairs/")
-}
 function url21(){
     window.location.assign("https://909jump.com/rentals/tents-canopies-misters/10x10-tent/")
+}
+function url25(){
+    window.location.assign("https://909jump.com/rentals/tables-chairs/folding-chairs/")
 }
 function url22(){
     window.location.assign("https://909jump.com/rentals/tents-canopies-misters/10x20-canopy/")
